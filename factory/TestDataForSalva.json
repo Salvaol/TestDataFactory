@@ -1,0 +1,9 @@
+{
+	"name": "TestDataForSalva",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9c0d359f-05a1-4140-bb43-ab88a983a3c6",
+		"tenantId": "f6d170b8-bfd8-4b81-8631-aa6db7518275"
+	}
+}
