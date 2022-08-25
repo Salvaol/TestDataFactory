@@ -1,0 +1,23 @@
+{
+	"name": "Knack",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://api.knack.com/v1/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous",
+			"authHeaders": {
+				"X-Knack-Application-Id": {
+					"type": "SecureString",
+					"value": "**********"
+				},
+				"X-Knack-REST-API-KEY": {
+					"type": "SecureString",
+					"value": "**********"
+				}
+			}
+		}
+	}
+}
