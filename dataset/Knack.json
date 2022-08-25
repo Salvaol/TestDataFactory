@@ -1,0 +1,15 @@
+{
+	"name": "Knack",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Knack",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": ""
+		},
+		"schema": []
+	}
+}
